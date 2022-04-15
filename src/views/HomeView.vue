@@ -1,18 +1,45 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="home">
+    <Header />
+
+    <div class="container">
+      <div class="col">
+        <h3>Tasks</h3>
+        <hr>
+        <div v-for="lista in listas" :key="lista.id">
+          <Tasks :lista="lista" />
+        </div>
+        <a href="#" class="btn btn-success">
+          Adicionar
+        </a>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue';
+import Header from '@/components/Header.vue';
+import Tasks from '@/components/Tasks.vue';
 
 export default {
-  name: 'HomeView',
+  name: 'home-page',
   components: {
-    HelloWorld,
+    Header,
+    Tasks,
+  },
+  data() {
+    return {
+      listas: [
+        {
+          id: 1,
+          name: 'testandooo ',
+        },
+        {
+          id: 2,
+          name: 'Viuva Negra',
+        },
+      ],
+    };
   },
 };
 </script>
