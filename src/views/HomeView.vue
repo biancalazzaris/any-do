@@ -1,7 +1,7 @@
 <template>
   <div id="home">
     <Header />
-
+    <Tasks  />
     <div class="container">
       <div class="col">
         <h3>Tasks</h3>

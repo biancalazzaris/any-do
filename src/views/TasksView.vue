@@ -68,7 +68,6 @@
                 <td>{{title}}</td>
                 <td>{{description}}</td>
                 <td>{{status}}</td>
-                <td><font-awesome-icon icon="fa-solid fa-trash-can" /></td>
               </tr>
             </tbody>
           </table>
