@@ -9,7 +9,7 @@
         <div v-for="lista in listas" :key="lista.id">
           <Tasks :lista="lista" />
         </div>
-        <a href="#" class="btn btn-success">
+        <a href="/about" class="btn btn-success">
           Adicionar
         </a>
       </div>

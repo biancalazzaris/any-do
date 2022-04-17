@@ -9,15 +9,15 @@
         <div class="row">
           <div class="col">
             <label for="name">Nome</label>
-            <input type="text" class="form-control" placeholder="Nome Completo da Silva">
+            <input type="text" class="form-control" placeholder="digite aqui">
           </div>
           <div class="col">
             <label for="user-name">User Name</label>
-            <input type="text" class="form-control" placeholder="nickmeu">
+            <input type="text" class="form-control" placeholder="digite aqui">
           </div>
           <div class="col">
             <label for="email">Email</label>
-            <input type="email" class="form-control" placeholder="eu@mail.com">
+            <input type="email" class="form-control" placeholder="digite aqui">
           </div>
         </div>
       </form>
@@ -61,7 +61,7 @@
       </form>
       </div>
     <div class="d-flex justify-content-between">
-        <button class="btn btn-secondary mt-3"> Cancelar </button>
+        <a href="/" class="btn btn-secondary mt-3"> Cancelar </a>
         <button class="btn btn-success mt-3"> Salvar </button>
     </div>
     </div>

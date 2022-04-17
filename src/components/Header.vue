@@ -3,7 +3,7 @@
     <nav class="navbar navbar-light bg-dark mb-3">
       <div class="container-fluid">
         <a class="navbar-brand text-light" href="/">Any Do</a>
-        <router-link class="navbar-brand text-light" to="/form">Hello {{name}} </router-link>
+        <router-link class="navbar-brand text-light" to="/form">Hello Visitor {{name}} </router-link>
       </div>
     </nav>
   </div>
